@@ -7,7 +7,7 @@ cask "mcp-gateway-desk" do
   desc "Manage MCP servers and connect AI apps, with direct access to local folders"
   homepage "https://github.com/winter-wub/mcp-gateway-desk"
 
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
 
   app "MCP Gateway Desk.app"
   binary "#{appdir}/MCP Gateway Desk.app/Contents/MacOS/mcp-gateway-desk"

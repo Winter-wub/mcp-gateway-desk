@@ -27,8 +27,11 @@ It works like an MCP toolkit, with one big difference: **every server runs right
 
 ```sh
 brew tap winter-wub/mcp-gateway-desk https://github.com/winter-wub/mcp-gateway-desk
+brew trust winter-wub/mcp-gateway-desk
 brew install --cask winter-wub/mcp-gateway-desk/mcp-gateway-desk
 ```
+
+(`brew trust` is needed once on newer Homebrew, which asks before loading apps from a third-party tap.)
 
 This installs **MCP Gateway Desk.app** into Applications and the `mcp-gateway-desk` command. Update with `brew upgrade --cask mcp-gateway-desk`.
 
@@ -111,6 +114,7 @@ MCP Gateway Desk เป็นแอปบน Mac สำหรับจัดก�
 
 ```sh
 brew tap winter-wub/mcp-gateway-desk https://github.com/winter-wub/mcp-gateway-desk
+brew trust winter-wub/mcp-gateway-desk
 brew install --cask winter-wub/mcp-gateway-desk/mcp-gateway-desk
 ```
 
