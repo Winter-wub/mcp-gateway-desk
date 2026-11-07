@@ -1,6 +1,6 @@
 cask "mcp-gateway-desk" do
   version "0.1.0"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  sha256 "d0ba58665fcdf51ea8589a58b1ff737bd0a8e9113873ed9b1161b8bee2915195"
 
   url "https://github.com/winter-wub/mcp-gateway-desk/releases/download/v#{version}/MCP-Gateway-Desk-#{version}.dmg"
   name "MCP Gateway Desk"
