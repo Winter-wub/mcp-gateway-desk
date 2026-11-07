@@ -1,0 +1,9 @@
+/target
+/dist
+/shots
+/test-home
+.DS_Store
+
+# Local working notes (not published)
+/MECHANICS.md
+/mechanics.json
